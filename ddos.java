@@ -54,7 +54,7 @@ public class Dos implements Runnable {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter Url: ");
         url = in.nextLine();
-        System.out.println("\n\n");
+        System.out.println("\n");
         System.out.println("Starting Attack to url: " + url);
 
         String[] SUrl = url.split("://");
