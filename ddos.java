@@ -195,6 +195,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("Thanh Phong đang địt!: " + responseCode + "Thread: " + this.seq);
     }
 }
