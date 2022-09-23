@@ -66,7 +66,7 @@ public class Dos implements Runnable {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Setting DDoS By: Shadow Tak");
+        System.out.println(" By Minh Thuan");
 
         System.out.print("Thread: ");
         String amount = in.nextLine();
@@ -195,6 +195,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("DDos Xong!: " + responseCode + "Thread: " + this.seq);
     }
 }
